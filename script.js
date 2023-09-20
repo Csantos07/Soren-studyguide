@@ -1,7 +1,7 @@
-console.log("Hello");
+// console.log("Hello");
 
-function helloBree() {
-  console.log("We are connected");
-}
+// function helloSoren() {
+//   console.log("We are connected");
+// }
 
-helloBree();
+// helloSoren();
