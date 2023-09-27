@@ -1,0 +1,14 @@
+*/
+function availableCampsites(campgrounds){
+   let camp = []
+ for(let i = 0; i < campgrounds.length; i++) {
+   if(campgrounds[i].isReserved !== true) {
+ camp.push(campgrounds[i].number)
+   }
+  } 
+  return camp
+  
+}
+ // Do not make changes below this line
+ module.exports = availableCampsites;
+ 

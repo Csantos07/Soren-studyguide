@@ -1,0 +1,7 @@
+function campgroundCapacity(campgrounds){
+let sum = 0
+for (let i = 0; i < campgrounds.length; i++) {
+sum += campgrounds[i].partySize
+} 
+ return sum
+}  
