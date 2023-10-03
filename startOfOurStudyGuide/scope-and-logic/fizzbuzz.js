@@ -23,3 +23,37 @@
 // 14
 // FizzBuzz
 // Make sure to test your function with different inputs and ensure it produces the correct FizzBuzz sequence.
+
+
+// A new operator that you might not know ----> % (the modulous operator)
+// ------------
+
+// How can we count up to 100
+// What do we do next? ---
+// if else condition to do what?
+// fizzbuzz @ every number divisible by 15
+// fizz @ every number divisible by 3
+// buzz @ every number divisible by 5
+
+
+// We can use a param to make this more flexible?
+function fizzBuzz(numberToCountUpTo) {
+  for (let i = 1; i <= numberToCountUpTo; i++) {
+    if (i % 15 === 0) {
+      console.log("FizzBuzz");
+    } else if (i % 3 === 0) {
+      console.log("Fizz");
+    } else if (i % 5 === 0) {
+      console.log("Buzz");
+    } else {
+      console.log(i);
+    }
+  }
+}
+
+// console.log(i);
+// 15 is an argument...
+// the arguments takes the place of the parameters
+fizzBuzz(15);
+console.log("********************************");
+fizzBuzz(50);
