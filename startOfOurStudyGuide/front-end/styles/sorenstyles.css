@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+
+div {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  /* if we don't want div's to be block level or stacked by defualt
+  we have to give it a property change of display */
+  /* display: inline-block; */
+  /* margin: 0 100px; */
+
+}
+
+/* .div-one {
+  background-color: red;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.div-two {
+  background-color: blue;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.div-three {
+  background-color: yellow;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.div-four {
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+} */
+
+/*
+  the box model is
+  margin, padding, border, content
+*/
