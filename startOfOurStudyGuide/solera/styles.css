@@ -1,0 +1,20 @@
+
+/* .nav {
+  position: absolute;
+  right: 0px;
+  top: 0;
+} */
+
+* {
+  /* border: 1px solid red; */
+}
+
+.blue {
+  /* border: 1px solid blue; */
+}
+.header {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+  padding: 10px 50px;
+}
